@@ -1,0 +1,5 @@
+numpy
+sentencepiece
+transformers
+gguf
+protobuf
