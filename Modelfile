@@ -2,7 +2,7 @@
 # A model file constitutes the foundational blueprint for the creation and 
 # dissemination of models within the Ollama ecosystem. Further details can 
 # be found in the accompanying documentation: 
-# https://github.com/ollama/ollama/blob/main/docs/modelfile.m
+# https://github.com/ollama/ollama/blob/main/docs/modelfile.md
 #
 # set the base model 
 FROM ./Llama-3-Taiwan-8B-Instruct-DPO.gguf
