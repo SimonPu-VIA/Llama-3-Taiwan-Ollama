@@ -3,7 +3,11 @@ This repro notes converting a readily available LLM model from Hugging Face into
 </br>
 Here, the example utilizes the [Llama-3-Taiwan-8B-Instruct-DPO model](https://huggingface.co/yentinglin/Llama-3-Taiwan-8B-Instruct-DPO), readily accessible on HuggingFace and the NVIDIA PyTorch 23.09-py3 [docker container](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch) environment, as a demonstration.
 </br>
+✨ I have shared the Llama-3-Taiwan-8B-Instruct-DPO model with Ollama! You can access it through this link: [SimonPu
+/llama-3-taiwan-8b-instruct-dpo](https://ollama.com/SimonPu/llama-3-taiwan-8b-instruct-dpo). Feel free to try it out. ✨
 </br>
+</br>
+
 ## 1. Clone the model from Hugging Face repository
 ```
 # Make sure you have git-lfs installed (https://git-lfs.com)
@@ -28,6 +32,7 @@ pip install -r requirements.txt
 
 curl -fsSL https://ollama.com/install.sh | sh
 
+# ♥ Recommened ♥ to easy use the Ollama setp within a separate Docker container.
 # If you are utilizing a Docker environment and your docker system has not been
 # initialized with systemd, you can deploy the Ollama setp within a separate 
 # Docker container. For example:
