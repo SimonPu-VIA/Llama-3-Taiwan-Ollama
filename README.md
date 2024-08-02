@@ -75,3 +75,6 @@ ollama push <ollama-username>/<model-name>
 # run the following command to push the model to the Ollama server.
 docker exec -it ollama ollama push <ollama-username>/<model-name>
 ```
+
+## 🙇‍♂️ Acknowledgement 🙇‍♂️
+This repo benefits from [Llama-3-Taiwan-8B-Instruct-DPO](https://huggingface.co/yentinglin/Llama-3-Taiwan-8B-Instruct-DPO) model support and Ollama(https://ollama.com/) , [lama.cpp](https://github.com/ggerganov/llama.cpp) team for their invaluable contributions to its underlying infrastructure. Thanks for their wonderful works.
