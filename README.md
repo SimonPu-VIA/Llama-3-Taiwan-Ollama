@@ -10,10 +10,17 @@ Here, the example utilizes the [Llama-3-Taiwan-8B-Instruct-DPO model](https://hu
 
 ## 1. Clone the model from Hugging Face repository
 ```
-# Make sure you have git-lfs installed (https://git-lfs.com)
+# Make sure you have git-lfs installed (https://git-lfs.com), example for Debian / Ubuntu
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt-get install git-lfs
 git lfs install
+
 # Make sure your SSH key is properly setup in your user settings.
 # https://huggingface.co/settings/keys
+# If you encounter load ssh bad permissions problems, please fix them by using 
+# chmod to change the file permissions, for example:
+# chmod 600 ~/.ssh/id_rsa
+# 
 git clone git@hf.co:yentinglin/Llama-3-Taiwan-8B-Instruct-DPO
 ```
 
